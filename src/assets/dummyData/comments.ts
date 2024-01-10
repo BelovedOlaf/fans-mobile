@@ -1,0 +1,43 @@
+export const commentsDummyData = [
+	{
+		id: 1,
+		username: "Karin Smith",
+		avatar: "",
+		time: "43 min",
+		content: "Loooove your dress!",
+		isLiked: false,
+		likeCounts: 21,
+		replies: [],
+	},
+	{
+		id: 2,
+		username: "Kate Lee",
+		avatar: "",
+		time: "43 min",
+		content: "Ohh lovely. Such a beautiful location! wehre is it?",
+		isLiked: false,
+		likeCounts: 15,
+		replies: [
+			{
+				id: 4,
+				username: "Jane Love",
+				avatar: "",
+				time: "43 min",
+				content: "Cant tell yet! But I wil soon!",
+				isLiked: false,
+				likeCounts: 2,
+				replies: [],
+			},
+		],
+	},
+	{
+		id: 3,
+		username: "Ramiro Altamiglia",
+		avatar: "",
+		time: "43 min",
+		content: "Beautiful as always! cant wait to join you on your next trip",
+		isLiked: false,
+		likeCounts: 35,
+		replies: [],
+	},
+];

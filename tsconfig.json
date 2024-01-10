@@ -1,0 +1,26 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "paths": {
+      "@screens/*": ["src/screens/*"],
+      "@components/*": ["src/components/*"],
+      "@context/*": ["src/context/*"],
+      "@assets/*": ["src/assets/*"],
+      "@constants/*": ["src/constants/*"],
+      "@state/*": ["src/state/*"],
+      "@usertypes/*": ["src/types/*"],
+      "@lib/*": ["src/lib/*"],
+      "@utils/*": ["src/utils/*"],
+      "@helper/*": ["src/helper/*"]
+    }
+  },
+  "include": [
+    "./app/**/*",
+    "./src/**/*"
+  ]
+}

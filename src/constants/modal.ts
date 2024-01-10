@@ -1,0 +1,12 @@
+export const POST_REPORT_DIALOG_ID = "post-report-dialog";
+export const PROFILE_REPORT_DIALOG_ID = "profile-report-dialog";
+export const SEND_MESSAGE_SUCCESS_MODAL_ID = "send-message-success-modal";
+export const BLOCK_CREATOR_MODAL_ID = "block-creator-modal";
+export const SUBSCRIBE_LOGIN_DIALOG_ID = "subscribe-login-dialog";
+export const LOADING_DIALOG_ID = "loading-dialog";
+export const MANAGE_SUBSCRIPTION_DIALOG_ID = "manage-subscription-dialog";
+export const NOTICE_CHARGEBACKS_DIALOG_ID = "notice-chargebacks-dialog";
+export const ADD_PAYMENT_CARD_DIALOG_ID = "add-payment-card-dialog";
+export const PROFILE_THREE_DOTS_DIALOG_ID = "profile-three-dots-dialog";
+export const FAIR_TRANSACTION_DIALOG_ID = "fair-transaction-dialog";
+export const ANIMATION_LOADING_DIALOG_ID = "animation-loading-dialog";
